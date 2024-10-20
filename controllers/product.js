@@ -25,6 +25,7 @@ const createProduct = async (req, res) => {
  * @returns Object
  */
 const getAllProducts = async (req, res) => {
+  console.log("teste...");
   try {
     const products = await Product.findAll({ order: [['createdAt', 'DESC']] });
 
