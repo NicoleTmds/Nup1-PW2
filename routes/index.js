@@ -1,4 +1,6 @@
-const router = require('express').Router();
+//const router = require('express').Router();
+const express = require('express');
+const router = express.Router();
 
 // Controller imports
 const { categoryController, productController } = require('../controllers');
@@ -18,3 +20,4 @@ router.put('/v1/products/:id', productController.updateProductById);
 router.delete('/v1/products/:id', productController.deleteProductById);
 
 module.exports = router;
+

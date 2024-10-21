@@ -15,6 +15,7 @@ module.exports = {
           // Store the price in cents e.g if price is $5, multiply by 100 cents e.g 5 * 100 = 500 cents
           price: 500,
           expiryDate: new Date(),
+          categoryId: 'a52467a3-3a71-45c4-bf1c-9ace5ad3668f',
           createdAt: new Date(),
           updatedAt: new Date(),
         },
@@ -28,6 +29,7 @@ module.exports = {
           // Store the price in cents e.g if the price is $5, multiply by 100 cents e.g 5 * 100 = 500 cents
           price: 100,
           expiryDate: new Date(),
+          categoryId: '33a9e6e0-9395-4f6c-b1cd-3cf1f87e195a',
           createdAt: new Date(),
           updatedAt: new Date(),
         },
